@@ -2,22 +2,22 @@
 Clase para Universidad Michoacana
 ### by José Manuel Villalobos Escobedo
 
-En este curso veremos el uso de la herramienta R, en la cual podemos hacer desde calculos matematicos simples, hasta analisis estadisticos altamente complejos. Este programa usa un leguaje de programación con objetos y funciones. Para entender la logica del programa en la siguiente liga encontraras ejercicios y una descripción detallada del programa y el uso de la herramienta RStudio.
+## En este curso veremos el uso de la herramienta R, en la cual podemos hacer desde calculos matematicos simples, hasta analisis estadisticos altamente complejos. Este programa usa un leguaje de programación con objetos y funciones. Para entender la logica del programa en la siguiente liga encontraras ejercicios y una descripción detallada del programa y el uso de la herramienta RStudio.
 
-Lección 1
+# Lección 1
 por Manuel Villalobos
 
 Introducción a R
-## En esta parte quiero mostrarles que es R para aquellos que no han tenido un acercamiento a esta herramienta. R es un programa libre ## para hacer estadística mucho más poderosa que Excel. La gran ventaja de R es que es completamente gratuito y cualquier usuario puede ## desarrollar herramientas y posteriormente liberarlas. Es por esta razón que R se ha convertido en una manera sencilla de compartir
-## código para análisis de datos masivos.
+En esta parte quiero mostrarles que es R para aquellos que no han tenido un acercamiento a esta herramienta. R es un programa libre ## para hacer estadística mucho más poderosa que Excel. La gran ventaja de R es que es completamente gratuito y cualquier usuario puede ## desarrollar herramientas y posteriormente liberarlas. Es por esta razón que R se ha convertido en una manera sencilla de compartir
+ código para análisis de datos masivos.
 
 
-# Tu puedes escribir en la parte de código en RStudio las siguientes instrucciones y al dar enter, estas se ejecutarán y se verán la 
-# parte inferior de tu pantalla. En estos ejercicios tu veras dos recuadros, uno con las instrucciones a ejecutar y otro el resultado 
-# anteponiéndose el símbolo [1].
+ Tu puedes escribir en la parte de código en RStudio las siguientes instrucciones y al dar enter, estas se ejecutarán y se verán la 
+ parte inferior de tu pantalla. En estos ejercicios tu veras dos recuadros, uno con las instrucciones a ejecutar y otro el resultado 
+ anteponiéndose el símbolo [1].
 
-# Copia y pega en R las instrucciones y ve si las puedes ejecutar
-# para ubicarte en una dirección dentro de tu sistema puedes usar:
+ Copia y pega en R las instrucciones y ve si las puedes ejecutar
+ para ubicarte en una dirección dentro de tu sistema puedes usar:
 
 setwd("~/Desktop/Curso_queretaro2017")
 
