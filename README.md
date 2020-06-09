@@ -82,21 +82,21 @@ impactos= c(10, 40, 12, 3, 5, 21, 8)
 Escriban la variable para visualizar los valores que contiene
 
 impactos
- [1] 10 40 12  3  5 21  8
+ [1]  10  40  12   3   5  21   8
  
 podemos hacer diferentes operaciones con este objeto y estas afectarán a todos los valores contenidos en él.
 
 impactos + 1
 
- [1] 11 41 13  4  6 22  9
+ [1]  11  41  13   4   6  22   9
  
 impactos * 2
 
- [1] 20 80 24  6 10 42 16
+ [1]  20  80  24   6  10  42  16
  
 impactos / 2
 
- [1]  5.0 20.0  6.0  1.5  2.5 10.5  4.0
+ [1]   5.0  20.0   6.0   1.5   2.5  10.5   4.0
  
 Pueden probar cosas como:
 
@@ -104,7 +104,7 @@ impactos2= impactos * 2
 
 impactos * impactos2
 
-[1]  200 3200  288   18   50  882  128
+[1]   200  3200   288    18    50   882   128
 
 Existen en R muchas funciones interesantes para realizar análisis estadísticos sobre datos masivos, tales como encontrar el promedio de los datos, el valor máximo o mínimo, etc. 
 
@@ -267,28 +267,28 @@ En R existen varias funciones para generar sucesiones numéricas. Por ejemplo:
 
 1:30
 
-  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+  [1]   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23
   
- [24] 24 25 26 27 28 29 30
+ [24]  24  25  26  27  28  29  30
  
 El operador ’dos puntos’ tiene máxima prioridad en una expresión, así, por ejemplo:
 
 2*1:15 
 
- [1]  2  4  6  8 10 12 14 16 18 20 22 24 26 28 30
+ [1]   2   4   6   8  10  12  14  16  18  20  22  24  26  28  30
  
 La función seq() permite generar sucesiones más complejas.
 
 
 seq(-5, 5, by=.2)
 
-  [1] -5.0 -4.8 -4.6 -4.4 -4.2 -4.0 -3.8 -3.6 -3.4 -3.2 -3.0 -2.8 -2.6 -2.4
+  [1]  -5.0  -4.8  -4.6  -4.4  -4.2  -4.0  -3.8  -3.6  -3.4  -3.2  -3.0  -2.8  -2.6  -2.4
   
- [15] -2.2 -2.0 -1.8 -1.6 -1.4 -1.2 -1.0 -0.8 -0.6 -0.4 -0.2  0.0  0.2  0.4
+ [15]  -2.2  -2.0  -1.8  -1.6  -1.4  -1.2  -1.0  -0.8  -0.6  -0.4  -0.2   0.0   0.2   0.4
  
- [29]  0.6  0.8  1.0  1.2  1.4  1.6  1.8  2.0  2.2  2.4  2.6  2.8  3.0  3.2
+ [29]   0.6   0.8   1.0   1.2   1.4   1.6   1.8   2.0   2.2   2.4   2.6   2.8   3.0   3.2
  
- [43]  3.4  3.6  3.8  4.0  4.2  4.4  4.6  4.8  5.0
+ [43]   3.4   3.6   3.8   4.0   4.2   4.4   4.6   4.8   5.0
  
 Haciendo gráficas en R
 
