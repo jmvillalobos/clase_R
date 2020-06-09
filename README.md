@@ -19,7 +19,7 @@ En esta parte quiero mostrarles que es R para aquellos que no han tenido un acer
  Copia y pega en R las instrucciones y ve si las puedes ejecutar
  para ubicarte en una dirección dentro de tu sistema puedes usar:
 
-setwd("~/Desktop/Curso_queretaro2017")
+setwd("~/Desktop/Curso")
 
 Para imprimir un texto en pantalla usamos la siguiente instrucción. 
 
@@ -220,9 +220,7 @@ hist(impactos, col= "red", main = "Revistas científicas", ylab= "revistas")
 dev.off()
  quartz_off_screen 
                  2
-Ahora bien podemos comenzar a jugar con algunos datos más reales, para esto vamos a cargar una tabla de datos en R. Esta tabla vive en la carpeta Curso_queretaro2017. Para ir a ella debemos cambiarnos de directorio de la siguiente forma:
-#llamamos a nuestra tabla que existe en nuestra carpeta del curso:
-
+Ahora bien podemos comenzar a jugar con algunos datos más reales, para esto vamos a cargar una tabla de datos en R. Esta tabla vive en https://github.com/jmvillalobos/clase_R/blob/master/tabla.txt. Descarga el archivo y guardalo en una carpeta.
 tab = read.table("tabla.txt")
 
 tab
