@@ -325,7 +325,10 @@ dev.off()
  quartz_off_screen 
                  2
                  
-Ahora bien podemos comenzar a jugar con algunos datos más reales, para esto vamos a cargar una tabla de datos en R. Esta tabla vive en https://github.com/jmvillalobos/clase_R/blob/master/tabla.txt. Descarga el archivo y guardalo en una carpeta.
+Ahora bien podemos comenzar a jugar con algunos datos más reales, para esto vamos a cargar una tabla de datos en R. Esta tabla vive en:
+https://github.com/jmvillalobos/clase_R/blob/master/tabla.txt
+
+Descarga el archivo y guardalo en una carpeta (ve a raw, y dale guardar como).
 
 tab = read.table("tabla.txt")
 
